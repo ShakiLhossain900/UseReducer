@@ -4,7 +4,7 @@ function App() {
   return (
     <div >
      {/* <ReactReducer /> */}
-     <Counter />
+    <Counter/>
     </div>
   );
 }
