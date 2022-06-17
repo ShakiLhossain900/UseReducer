@@ -1,10 +1,12 @@
 // import ReactReducer from './useReducer/ReactReducer'
-import Counter from './useReducer/Counter'
+// import Counter from './useReducer/Counter'
+import ComplexCounter from './useReducer/ComplexCounter';
 function App() {
   return (
     <div >
      {/* <ReactReducer /> */}
-    <Counter/>
+    {/* <Counter/> */}
+    <ComplexCounter/>
     </div>
   );
 }
