@@ -20,3 +20,17 @@
 // export default Practice;
 
 
+
+
+
+import React,{ useReducer } from 'react';
+
+const Practice = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+export default Practice;
