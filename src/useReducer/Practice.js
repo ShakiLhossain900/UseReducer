@@ -89,4 +89,6 @@ const Practice = () => {
 
 export default Practice;
 ///ata run kore na ken ata pore dekte hobe because kije akta problem
+//next time practice korar somoy useReducer tokhon amara atar bug ta ber kore felbu inshallah
+
 
