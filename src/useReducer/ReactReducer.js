@@ -1,19 +1,19 @@
-// import React from 'react';
+import React from 'react';
 
-// const ReactReducer = () => {
-//     const array1 = [1,2,3,4];
-//     const reducer =(accumulator, currentValue) => accumulator + currentValue;
+const ReactReducer = () => {
+    const array1 = [1,2,3,4];
+    const reducer =(accumulator, currentValue) => accumulator + currentValue;
 
-//     const number=array1.reduce(reducer,10)
-//     return (
-//         <div>
-//             <h1>Array.prototype.reducer()</h1>
-//             <h4>the array of sum is = {number}</h4>
-//         </div>
-//     );
-// };
+    const number=array1.reduce(reducer,10)
+    return (
+        <div>
+            <h1>Array.prototype.reducer()</h1>
+            <h4>the array of sum is = {number}</h4>
+        </div>
+    );
+};
 
-// export default ReactReducer;
+export default ReactReducer;
 
 // import React from 'react';
 
