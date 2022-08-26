@@ -18,40 +18,21 @@
 
 
 
-import React from 'react';
-
-const ReactReducer = () => {
-    const numbers = [10,20,30];
- const sum =   numbers.reduce((prevValue, currentValue)=>{
-      return prevValue - currentValue;
-    },100)   // akta function return kore and and oi funciton er value golo array er 
-                //initial value golo minues kore
-    return (
-        <div>
-        <h1>the array result is = {sum}</h1>
-        </div>
-    );
-};
-
-export default ReactReducer;
-
-
-
 // import React from 'react';
 
 // const ReactReducer = () => {
-
-//     const numbers =[1,2,3,4,5]
-   
-//     const reducer = (accumulator , currentValue) =>{
-//         return accumulator - currentValue;
-//     }
-//       const result = numbers.reduce(reducer,20)
+//     const numbers = [10,20,30];
+//  const sum =   numbers.reduce((prevValue, currentValue)=>{
+//       return prevValue - currentValue;
+//     },100)   // akta function return kore and and oi funciton er value golo array er 
+//                 //initial value golo minues kore
 //     return (
 //         <div>
-//             <h1>the result is = { result }</h1>
+//         <h1>the array result is = {sum}</h1>
 //         </div>
 //     );
 // };
 
 // export default ReactReducer;
+
+
