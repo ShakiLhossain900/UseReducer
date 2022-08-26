@@ -88,3 +88,5 @@ const Practice = () => {
 };
 
 export default Practice;
+///ata run kore na ken ata pore dekte hobe because kije akta problem
+
