@@ -19,10 +19,6 @@
 
 // export default Practice;
 
-
-
-
-
 // import React,{ useReducer } from 'react';
 
 // const initailState = 0;
@@ -38,13 +34,12 @@
 //       }
 // }
 
-
 // const Practice = () => {
 //     const [count,dispatch] =useReducer(reducerFunction,5);
 //     return (
 //         <div>
 //             <h1>the resut is = {count}</h1>
-//             <button onClick={()=>dispatch('increment')} >Increment</button> 
+//             <button onClick={()=>dispatch('increment')} >Increment</button>
 //             <button onClick={()=>dispatch('decrement')} >decrement</button>
 //         </div>
 //     );
@@ -52,6 +47,44 @@
 
 // export default Practice;
 
+//useReducer akta object use kore
 
+import React, { useReducer } from "react";
+const initailState = {
+    counter: 0,
+  };
+  const reducer = (state, action) => {
+    switch (action.type) {
+      case "increment":
+        return { counter: state.counter + action.value };
+      case "decrement":
+        return { counter: state.counter - action.value };
+      default:
+        return state;
+    }
+  };
 
-//useReducer akta object use kore 
+const Practice = () => {
+    const [count, dispatch] = useReducer(reducer, initailState);
+
+  return (
+    <div>
+      <h2>the result is = {count}</h2>
+
+      <button onClick={() => dispatch({ type: "increment", value: 2 })}>
+        increment by 2
+      </button>
+      <button onclick={() => dispatch({ type: "decrement", value: 2 })}>
+        decrement by 2
+      </button>
+      <button onClick={() => dispatch({ type: "decrement", value: 1 })}>
+        Decrement by 1
+      </button>
+      <button onClick={() => dispatch({ type: "decrement", value: 5 })}>
+        Decrement by 5
+      </button>
+    </div>
+  );
+};
+
+export default Practice;
