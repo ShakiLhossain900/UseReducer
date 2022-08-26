@@ -21,17 +21,21 @@
 
 
 
-import React from 'react';
+// import React from 'react';
 
-const Practice = () => {
+// const Practice = () => {
     
-    const numbers = [10,20,30]
+//     const numbers = [10,20,30];
 
-    return (
-        <div>
-            
-        </div>
-    );
-};
+//     const counter = numbers.reduce((prevValue, currentValue)=>{
+//       return prevValue - currentValue
+//     },100)
 
-export default Practice;
+//     return (
+//         <div>
+//             <h2>the result is = {counter}</h2>
+//         </div>
+//     );
+// };
+
+// export default Practice;
